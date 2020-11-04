@@ -22,6 +22,13 @@ namespace TelefonRehberi.Controllers
         {
             return View();
         }
+        public IActionResult ekle(string button)
+        {
+           
+                
+            
+            return RedirectToAction("Index");
+        }
 
         public IActionResult Privacy()
         {

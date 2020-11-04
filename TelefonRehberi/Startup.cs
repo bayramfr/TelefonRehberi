@@ -26,7 +26,7 @@ namespace TelefonRehberi
         {
             services.AddControllersWithViews();
 
-            var connectionString = Configuration["PostgreSql:Server=127.0.0.1;Port=5432;Database=MapServerDB;User Id=postgres;"];
+            var connectionString = Configuration["PostgreSql:Server=193.140.26.62;Port=5432;Database=MapServerDB;User Id=postgres;"];
             var dbPassword = Configuration["PostgreSql:postgres"];
             var builder = new NpgsqlConnectionStringBuilder(connectionString)
             {
